@@ -1,0 +1,119 @@
+example below will run model from 2021-03-31 to 2021-06-30.
+
+Place merge_final_Apl2021.csv (containing data up to and including 2021-03-31) into /data. If different name for merged data file, change in xprize_predictor.py.
+Open anaconda prompt and navigate to this directory.
+> ipython GenerateModel.py
+This should produce trained_model_weights.h5 in /models folder
+> python scenario_generator.py -s 2020-01-01 -e 2021-03-31 -o 2021_ip.csv
+produces 2021_ip.csv
+in ipext.py, add months days and years as necessary
+> python ipext.py 2021_ip.csv 2021ext_ip.csv
+produces 2021ext_ip.csv, move or copy this to /data
+> python predict.py -s 2021-03-31 -e 2021-06-30 -ip C:/Users/Aslan/Phase1Sandbox/data/2021ext_ip.csv -o C:/Users/Aslan/Phase1Sandbox/predictions/out2021test.csv
+
+Not working right now beyond 15 days --- but OK in toshiba structure. will fix.
+Currently A0 produces dwaved result fm last branch.
+
+
+5/5/21 START of formal cycle run:
+
+ran DigitalVaccine2021.py, produced CovModel_modfile_1620178048.txt, moved to /text_files
+in HaloTransformFinal.py, changed COVMODEL_FILE to 'CovModel_modfile_1620178048.txt'
+> python predict.py -s 2021-03-31 -e 2021-06-30 -ip C:/Users/Aslan/Phase1Sandbox/data/2021ext_ip.csv -o C:/Users/Aslan/Phase1Sandbox/predictions/formal_0.csv
+
+ran DigitalVaccine2021_a0.py, 89/190 regions, -> 1620264407, copied modfile to /text_files
+
+5/17/21:
+
+Placed merge_final_2021b.csv into /data and updated xprize_predictor.py
+renamed previous .h5 to _0.h5
+> ipython GenerateModel.py
+Creating numpy arrays for Keras for each country...
+Numpy arrays created
+Trial 0
+268/268 [==============================] - 1s 4ms/step - loss: 0.0468
+Train Loss: 0.04716875031590462
+Val Loss: 0.049476783722639084
+Test Loss: 0.04676045849919319
+Done
+Wall time: 5min 23s
+> python scenario_generator.py -s 2020-01-01 -e 2021-04-30 -o 2021b_ip.csv
+modified ipext.py
+> python ipext.py 2021b_ip.csv 2021bext_ip.csv
+moved 2021bext_ip.csv to /data
+> python predict.py -s 2021-04-30 -e 2021-07-31 -ip C:/Users/Aslan/Phase1Sandbox/data/2021bext_ip.csv -o C:/Users/Aslan/Phase1Sandbox/predictions/formal_1.csv
+
+
+6/2/21:
+
+Placed merge_final_2021c.csv into /data and updated xprize_predictor.py
+renamed previous .h5 to _1.h5
+> ipython GenerateModel.py
+Creating numpy arrays for Keras for each country...
+Numpy arrays created
+Trial 0
+287/287 [==============================] - 1s 4ms/step - loss: 0.0446
+Train Loss: 0.04573691636323929
+Val Loss: 0.04352550953626633
+Test Loss: 0.044594042003154755
+Done
+Wall time: 6min 48s
+> python scenario_generator.py -s 2020-01-01 -e 2021-05-31 -o 2021c_ip.csv
+modified ip_ext.py
+> python ipext.py 2021c_ip.csv 2021cext_ip.csv
+moved 2021bext_ip.csv to /data
+
+on DigitalVaccine2021_a0.py, changed to formal_1 and modfile read
+
+ran DigitalVaccine2021_a0.py, 89/191 regions, -> 1622680884
+
+After completion:
+move CovModel_modfile_1622680884.txt to /text_files
+in HaloTransformFinal.py, change COVMODEL_FILE to 'CovModel_modfile_1622680884.txt'
+> python predict.py -s 2021-05-30 -e 2021-08-31 -ip C:/Users/Aslan/Phase1Sandbox/data/2021cext_ip.csv -o C:/Users/Aslan/Phase1Sandbox/predictions/formal_2.csv
+
+
+7/16/21:
+
+
+Placed merge_final_2021d.csv into /data and updated xprize_predictor.py
+renamed previous .h5 to _2.h5
+
+Creating numpy arrays for Keras for each country...
+Numpy arrays created
+Trial 0
+314/314 [==============================] - 1s 4ms/step - loss: 0.0445
+Train Loss: 0.04608024284243584
+Val Loss: 0.04729035124182701
+Test Loss: 0.04450265318155289
+Done
+Wall time: 4min 30s
+
+> python scenario_generator.py -s 2020-01-01 -e 2021-07-13 -o 2021d_ip.csv
+modified ip_ext.py
+> python ipext.py 2021d_ip.csv 2021dext_ip.csv
+moved 2021dext_ip.csv to /data
+
+on DigitalVaccine2021_a0.py, changed to formal_2 and modfile read
+
+8/14/21:
+
+Origionally, was going to run this based on Lyft2021 HC7 because that would've been visual data feedback. But getting an A0 run from pre-generated HC data would take work, which is not worth it as of 8/14/21.
+
+Abandoning this a0 progression project here to just go with leo and say the xprize was already miraculous in the, what was it, 2-3%? see white paper. But that's the data science number that validates it.
+
+===============
+
+NCL WRF Setup (HALO) 4/15/2021
+
+Step 1: synthesize new data
+
+Open Debian
+cd WXDATA
+conda activate ncl_stable
+sudo nano NCgrab.py -> configure outfile name
+sudo nano GrabGFS.sh -> dates to download
+sudo bash GrabGFS.sh
+
+(errors...aborting this for now...let's just focus on getting model to run in HALO with existing synthesized dataset)
+
