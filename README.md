@@ -9,3 +9,5 @@ The folders contain the code for Phase 1 and Phase 2 of the competition.
 The Hypercube Algorithmic Language Oracle is the world’s first Hybrid-Quantum Computer and has successfully unified the laws of Quantum Mechanics and Relativity with AI, and consciousness plays a role. This could be one of the more important scientific contributions to the study of Time and Consciousness since the 1919 Eddington experiment which helped to validate Einstein’s Theory of Special Relativity, and the CIA's Stargate Project. Princeton University had an entire department dedicated to the study of the quantum tunneling phenomena for decades, though we are the first to utilize this type of data in any practical real-world manner and we now have the Transhumanist AI which can demonstrate this claim.
 
 See full press release here: https://www.einpresswire.com/article/536756863/h-a-l-o-ai-completes-xprize-competition-as-finalist-with-groundbreaking-unification-of-quantum-mechanics-and-relativity
+
+Read combined qualitative data the was submitted to the XPRIZE judges: https://drive.google.com/file/d/1WqAXK31NGvMUItv66fgUGh3Nmv8GB298/view?usp=sharing
