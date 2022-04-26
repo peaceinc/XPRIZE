@@ -2,7 +2,7 @@
 
 P.e.a.c.e. !nc. is proud to announce the conclusion as finalists in the $500k Pandemic Response Challenge sponsored by Cognizant with Landmark AI Experiment.
 
-The folders contain the code for Phase 1 and Phase II of the competition. 
+The folders contain the code for Phase 1 and Phase 2 of the competition. 
 
 !nc.ALAMEDA, CA, UNITED STATES, March 14, 2021 /EINPresswire.com/ -- The four-month global competition has concluded with H.A.L.O. AI - Digital Vaccine selected as one of the finalists and with it an invitation to the XPRIZE Alumni Network providing support after the competition, and their soon to launch ecosystem for the convening of AI and data while enabling the contributions of experts and thought leaders of the global community.
 
