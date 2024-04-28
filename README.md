@@ -1,5 +1,6 @@
 # XPRIZE
 
+
 P.e.a.c.e. !nc. is proud to announce the conclusion as finalists in the $500k Pandemic Response Challenge sponsored by Cognizant with Landmark AI Experiment.
 
 The folders contain the code for Phase 1 and Phase 2 of the competition. Of the 104 competition teams, we have the only quantum algorithms, proprietary equipment, and 14 Specialty Regions. 
