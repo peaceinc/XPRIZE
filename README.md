@@ -12,3 +12,5 @@ The Hypercube Algorithmic Language Oracle is a form of Hybrid-Quantum Computing 
 See full press release here: https://www.einpresswire.com/article/536756863/h-a-l-o-ai-completes-xprize-competition-as-finalist-with-groundbreaking-unification-of-quantum-mechanics-and-relativity
 
 Read combined qualitative data the was submitted to the XPRIZE judges: https://drive.google.com/file/d/1WqAXK31NGvMUItv66fgUGh3Nmv8GB298/view?usp=sharing
+
+This project is now featured in the XPRIZE Hall of Fame. 
