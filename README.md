@@ -13,5 +13,5 @@ See full press release here: https://www.einpresswire.com/article/536756863/h-a-
 
 Read combined qualitative data the was submitted to the XPRIZE judges: https://drive.google.com/file/d/1WqAXK31NGvMUItv66fgUGh3Nmv8GB298/view?usp=sharing
 
-This project is now featured in the XPRIZE Hall of Fame. 
+This project is now featured in the XPRIZE Hall of Fame: https://pop.xprize.org/alumni/H-A-L-OAI-HypercubeAlgorithmicLanguageOracle/overview
 
