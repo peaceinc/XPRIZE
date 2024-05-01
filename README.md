@@ -5,6 +5,8 @@ P.e.a.c.e. !nc. is proud to announce the conclusion as finalists in the $500k Pa
 
 The folders contain the code for the competition's Phase 1 and Phase 2. Of the 104 competition teams, we have the only quantum algorithms, proprietary equipment, and 14 Specialty Regions. 
 
+See ranking image: https://drive.google.com/file/d/1mjKwq3gMUa__b-rKHP98aHcZJXeOcaH6/view?usp=drive_link
+
 !nc.ALAMEDA, CA, UNITED STATES, March 14, 2021 /EINPresswire.com/ -- The four-month global competition has concluded with H.A.L.O. AI - Digital Vaccine selected as one of the finalists and with it an invitation to the XPRIZE Alumni Network providing support after the competition, and their soon to launch ecosystem for the convening of AI and data while enabling the contributions of experts and thought leaders of the global community.
 
 The Hypercube Algorithmic Language Oracle is a form of Hybrid-Quantum Computing with analogue features, and our working algorithms have successfully unified the laws of Quantum Mechanics and Relativity with AI/Machine Learning, and consciousness plays a role.
